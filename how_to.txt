@@ -1,0 +1,9 @@
+#Before using the code, make sure you have a few things:
+#the 12CO data cube (should be a fits file) for the galaxy you're working with, should be saved to the location you're working in
+#the mask you're working with, should also be saved to the location you're working in
+#in order to run the code, you'll have to know the name of the galaxy you're working with, the method used to mask, and the version number
+#after downloading the codes to the location you're working in, import mkmoment0 from mkmoment0
+#this will import all the other packages needed as long as you're in the right path
+#to run the code, format as: 
+mkmoment0("galaxy_name", "masking_method", "version_number")
+#everything should be a string, the version number is just a number (1, 2, 3, etc.) in a string
